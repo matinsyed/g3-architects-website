@@ -6,3 +6,45 @@
   font-weight: 400;
   font-style: normal;
 }
+/* Dark-2 */
+.text-gray{
+    color: #424242;
+}
+
+/* Dark-3 */
+.text-light-gray{
+    color: #727272;
+}
+/* Shared Style */
+.display-flex{
+    display: flex;
+}
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* Header styles */
+/* .header{
+    max-width: 1920px;
+    margin: 0px auto;
+} */
+/* navbar related Styles */
+.navbar{
+    justify-content: space-between;
+}
+.nav-links{
+    list-style: none;
+}
+.nav-item{
+    
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.navbar, .banner{
+    max-width: 1920px;
+    margin: 0px auto;
+}
