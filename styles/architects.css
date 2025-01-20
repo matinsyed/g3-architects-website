@@ -119,6 +119,8 @@ main{
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin: 100px auto;
+    
     /* gap: 100px; */
 }
 .facts-container-card{
@@ -156,8 +158,12 @@ main{
  .banner-title{
     font-size: 2rem;
  } 
- .teams-img-container{
+ .teams-img-container, .facts-container{
     grid-template-columns: repeat(1,1fr);
+ }
+ .facts-container{
+    justify-items: center;
+    gap: 20px;
  }
  .teams-features{
     margin-left: 20px;
@@ -171,14 +177,9 @@ main{
     .teams-features{
         margin: 50px auto;
     }
-}
-
-
-@media screen and (min-width:576px) and (max-width: 992px) {
-    .teams{
-        flex-direction: column;
-    }
-    .teams-features{
-        margin: 50px auto;
+    .facts-container{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap:50px;
     }
 }
