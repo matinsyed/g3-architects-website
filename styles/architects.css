@@ -199,15 +199,15 @@ main{
 }
 
 .footer{
-    /* max-width: 1440px; */
+    max-width: 1400px;
     background-color: #FFF4E7;
+    font-size: 1.25rem;
+    color: #424242;
     text-align: center;
-    padding: 20px 210px;
-    margin-top: 130px;
-    margin-bottom: 200px;
-    margin-left: 150px;
-    margin-right: 240px;
+    padding: 20px 210px;    
+    margin: 100px auto;
 }
+
 
 /* Responsive Styles */
 @media screen and (max-width:576px){
