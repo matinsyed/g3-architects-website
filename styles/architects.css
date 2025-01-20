@@ -199,8 +199,9 @@ main{
 }
 
 .footer{
-    max-width: 1400px;
+    max-width: 1440px;
     background-color: #FFF4E7;
+    border-radius: 8px;
     font-size: 1.25rem;
     color: #424242;
     text-align: center;
